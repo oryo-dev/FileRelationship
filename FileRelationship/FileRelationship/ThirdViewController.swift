@@ -9,10 +9,13 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var label3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        label3.text = "３つ目の画面"
     }
     
 

@@ -9,10 +9,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var label2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        label2.text = "２つ目の画面"
     }
     
 
